@@ -1,6 +1,8 @@
 # 🐍 Python OOP Concepts: Polymorphism & Abstraction
 
-A beginner-friendly Python repository demonstrating essential **Object-Oriented Programming (OOP)** concepts, focusing on **Polymorphism**, **Method Overriding**, and **Abstraction using Abstract Base Classes (ABC)**.
+A beginner-friendly collection of Python examples for learning **Object-Oriented Programming (OOP)**. Explore how one interface can support different behaviors and how abstract classes define rules for subclasses.
+
+**Level:** Beginner · **Language:** Python · **Dependencies:** Standard library only
 
 ## 📌 Topics Covered
 
@@ -14,13 +16,13 @@ A beginner-friendly Python repository demonstrating essential **Object-Oriented 
 - Requiring subclasses to implement methods with `@abstractmethod`.
 - Preventing instantiation of abstract or incomplete classes.
 
-## 📂 Repository Structure
+## 📂 Suggested Repository Structure
 
 ```text
-Python-OOP-Concepts/
-├── polymorphism.py
-├── abstraction.py
-└── README.md
+gittutorials/
+├── README.md
+├── polymorphism.py   # Optional: save example 1 here
+└── abstraction.py    # Optional: save example 2 here
 ```
 
 ## 💻 Code Examples
@@ -112,16 +114,20 @@ Bike engine started
 
 ## 🚀 Getting Started
 
-1. Download or clone this repository.
-2. Ensure Python 3.8+ is installed.
-3. Run the examples:
+1. Make sure Python 3.8 or newer is installed.
+2. Copy each example into a separate file (`polymorphism.py` and `abstraction.py`).
+3. Run the examples from your terminal:
 
 ```bash
 python polymorphism.py
 python abstraction.py
 ```
 
-The commands above assume you saved the corresponding examples in those `.py` files.
+You can also paste each example directly into a Python editor and run it. No third-party packages are needed.
+
+## 🧩 Practice Challenge
+
+Try adding a `Bird` class that overrides `speak()` to return `"Chirp!"`. Then create a `Bus` class that implements the abstract `start()` method.
 
 ## 🎯 Learning Outcomes
 
